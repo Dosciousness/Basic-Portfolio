@@ -19,6 +19,11 @@ nav{
     margin-right: 20%
 }
 
+
+.about-me-header {
+    color: #4aaaa5;
+}
+
 .navlinks {
     height: 10vh;
     display: table;
@@ -36,7 +41,7 @@ nav{
     position: table;
     vertical-align: middle;
     background-color: #4aaaa5;
-    text: white;
+    color: white;
 }
 
 .container {
@@ -47,22 +52,29 @@ nav{
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 25px;
+}
+
+.spacer  {
+    width: 100%;
+    border-bottom: 3px solid grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .containerText {
     position: relative;
     color: black;
     display: inline-block; 
-    
 }
 
 
 .profile-image {
-background: url(https://c402277.ssl.cf1.rackcdn.com/photos/11552/images/hero_small/rsz_namibia_will_burrard_lucas_wwf_us_1.jpg?1462219623);
-height: 200px;
-width: 200px;
-display: inline-block; 
-float: left;
+    background: url(https://c402277.ssl.cf1.rackcdn.com/photos/11552/images/hero_small/rsz_namibia_will_burrard_lucas_wwf_us_1.jpg?1462219623);
+    height: 200px;
+    width: 200px;
+    display: inline-block; 
+    float: left;
 }
 footer {
     height: 10vh;
