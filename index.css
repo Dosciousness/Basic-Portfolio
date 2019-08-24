@@ -1,3 +1,76 @@
-body {
-    background-color: rgb(121, 75, 16)
+*{
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    height: 10vh;
+    background-color: #4aaaa5;
+    display: table;
+    width: 100%;
+    clear: both;
+    color: white;
+}
+.navtitle {
+    display: table;
+    height: 10vh; 
+    float: right;
+    margin-left: 20%;
+    margin-right: 20%
+}
+
+.navlinks {
+    height: 10vh;
+    display: table;
+    margin-right: 20%;
+    float: right;
+}
+.navlink {
+    display: table-cell;
+    vertical-align: middle;
+    height: 10vh;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+.title {
+    position: table;
+    vertical-align: middle;
+    background-color: #4aaaa5;
+    text: white;
+}
+
+.container {
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.containerText {
+    position: relative;
+    color: black;
+    display: inline-block; 
+    
+}
+
+
+.profile-image {
+background: url(https://c402277.ssl.cf1.rackcdn.com/photos/11552/images/hero_small/rsz_namibia_will_burrard_lucas_wwf_us_1.jpg?1462219623);
+height: 200px;
+width: 200px;
+display: inline-block; 
+float: left;
+}
+footer {
+    height: 10vh;
+    background-color: #e67e22;
+}
+
+.main-container {
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/email-pattern.png");
+    height: 950px;
+
 }
